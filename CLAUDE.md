@@ -1,3 +1,5 @@
+This is a source-only derivative maintained for Git BBQ. Preserve the upstream skill layout and use [SOURCE-ONLY.md](./SOURCE-ONLY.md), [ADAPTATIONS.md](./ADAPTATIONS.md), and [git-bbq-curation.json](./git-bbq-curation.json) before changing skills. Git BBQ owns runtime packaging and release integration.
+
 Skills are organized into bucket folders under `skills/`:
 
 - `engineering/`: daily code work

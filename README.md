@@ -10,6 +10,8 @@
 
 # Skills For Real Engineers
 
+> This repository is the Git BBQ-maintained source derivative. It preserves Matt Pocock's skill layout and attribution, but Git BBQ owns packaging and release integration. See [SOURCE-ONLY.md](./SOURCE-ONLY.md), [ADAPTATIONS.md](./ADAPTATIONS.md), and [git-bbq-curation.json](./git-bbq-curation.json) before changing the source.
+
 [![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)
 
 My agent skills that I use every day to do real engineering - not vibe coding.
