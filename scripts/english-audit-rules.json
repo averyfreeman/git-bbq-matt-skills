@@ -1,0 +1,131 @@
+{
+  "spelling": {
+    "behaviour": "behavior",
+    "behaviours": "behaviors",
+    "colour": "color",
+    "colours": "colors",
+    "favour": "favor",
+    "favours": "favors",
+    "honour": "honor",
+    "honours": "honors",
+    "labour": "labor",
+    "neighbour": "neighbor",
+    "neighbours": "neighbors",
+    "organisation": "organization",
+    "organisations": "organizations",
+    "categorise": "categorize",
+    "categorised": "categorized",
+    "categorising": "categorizing",
+    "summarise": "summarize",
+    "summarised": "summarized",
+    "summarising": "summarizing",
+    "minimise": "minimize",
+    "minimised": "minimized",
+    "minimising": "minimizing",
+    "maximise": "maximize",
+    "maximised": "maximized",
+    "maximising": "maximizing",
+    "optimise": "optimize",
+    "optimised": "optimized",
+    "optimising": "optimizing",
+    "prioritise": "prioritize",
+    "prioritised": "prioritized",
+    "prioritising": "prioritizing",
+    "realise": "realize",
+    "realised": "realized",
+    "recognise": "recognize",
+    "recognised": "recognized",
+    "visualise": "visualize",
+    "visualised": "visualized",
+    "visualisation": "visualization",
+    "initialise": "initialize",
+    "initialised": "initialized",
+    "standardise": "standardize",
+    "customise": "customize",
+    "specialise": "specialize",
+    "authorise": "authorize",
+    "authorised": "authorized",
+    "centralise": "centralize",
+    "criticise": "criticize",
+    "emphasise": "emphasize",
+    "hypothesise": "hypothesize",
+    "hypothesised": "hypothesized",
+    "hypothesising": "hypothesizing",
+    "judgement": "judgment",
+    "licence": "license",
+    "practise": "practice",
+    "centre": "center",
+    "centres": "centers",
+    "metre": "meter",
+    "metres": "meters",
+    "litre": "liter",
+    "litres": "liters",
+    "programme": "program",
+    "programmes": "programs",
+    "travelled": "traveled",
+    "travelling": "traveling",
+    "labelled": "labeled",
+    "labelling": "labeling",
+    "cancelled": "canceled",
+    "cancelling": "canceling",
+    "modelling": "modeling",
+    "modelled": "modeled",
+    "focussed": "focused",
+    "focussing": "focusing",
+    "artefact": "artifact",
+    "artefacts": "artifacts",
+    "catalogue": "catalog",
+    "catalogues": "catalogs",
+    "defence": "defense",
+    "defences": "defenses",
+    "enrolment": "enrollment",
+    "fulfil": "fulfill",
+    "grey": "gray"
+  },
+  "idioms": [
+    {
+      "phrase": "at the weekend",
+      "note": "Review whether the intended US phrasing is `on the weekend` or `over the weekend`."
+    },
+    {
+      "phrase": "amongst",
+      "note": "Review whether the simpler US phrasing is `among`."
+    },
+    {
+      "phrase": "bespoke",
+      "note": "Review whether the intended audience prefers `custom` or `tailored`."
+    },
+    {
+      "phrase": "bits and bobs",
+      "note": "Review for a precise US phrase such as `miscellaneous items`."
+    },
+    {
+      "phrase": "do the needful",
+      "note": "Replace with a specific action."
+    },
+    {
+      "phrase": "fortnight",
+      "note": "Review whether the intended US phrasing is `two weeks`."
+    },
+    {
+      "phrase": "in hospital",
+      "note": "Review whether the intended US phrasing is `in the hospital`."
+    },
+    {
+      "phrase": "pop round",
+      "note": "Review whether the intended US phrasing is `stop by`."
+    },
+    {
+      "phrase": "ring me",
+      "note": "Review whether the intended US phrasing is `call me`."
+    },
+    {
+      "phrase": "take a decision",
+      "note": "Review whether the intended US phrasing is `make a decision`."
+    },
+    {
+      "phrase": "whilst",
+      "note": "Review whether the simpler US phrasing is `while`."
+    }
+  ]
+}

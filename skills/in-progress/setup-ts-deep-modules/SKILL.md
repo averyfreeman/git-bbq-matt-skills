@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Setup TS Deep Modules
 
-Make every package in this repo a **deep module**: a lot of behaviour behind a small interface. A package's public surface is its **entry points** (the files at the package root), and everything in its subfolders is hidden. This skill installs [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) and the rules that make the entry points the only way in, then proves the rules bite.
+Make every package in this repo a **deep module**: a lot of behavior behind a small interface. A package's public surface is its **entry points** (the files at the package root), and everything in its subfolders is hidden. This skill installs [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) and the rules that make the entry points the only way in, then proves the rules bite.
 
 For the vocabulary (deep module, interface, seam, depth), call the Skill tool with "codebase-design" and use its language throughout.
 
@@ -74,7 +74,7 @@ Create a committed `<packages-root>/example/` as a copy-me template:
 
 Tell the user this is a starter template to copy or delete.
 
-**Done when:** the example package exists, exposes its behaviour through a root entry point, and hides `impl` in a subfolder.
+**Done when:** the example package exists, exposes its behavior through a root entry point, and hides `impl` in a subfolder.
 
 ### 6. Prove the rules bite
 
