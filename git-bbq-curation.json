@@ -1,0 +1,241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": 1,
+  "source": {
+    "repository": "https://github.com/mattpocock/skills.git",
+    "commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7"
+  },
+  "policy": "retain-all-source-until-manual-selection",
+  "statuses": ["keep", "conditional", "hold", "alias", "omit"],
+  "skills": [
+    {
+      "path": "skills/engineering/ask-matt",
+      "status": "keep",
+      "recommendation": "Regenerate the router against the final Git BBQ subset.",
+      "dependencies": ["skills/engineering/grill-with-docs", "skills/productivity/grilling"]
+    },
+    {
+      "path": "skills/engineering/code-review",
+      "status": "keep",
+      "recommendation": "Core standards and specification review capability.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/engineering/codebase-design",
+      "status": "keep",
+      "recommendation": "Core deep-module and seam vocabulary.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/engineering/diagnosing-bugs",
+      "status": "keep",
+      "recommendation": "Core disciplined debugging loop.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/engineering/domain-modeling",
+      "status": "keep",
+      "recommendation": "Core glossary, scenario, and ADR discipline.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/engineering/grill-with-docs",
+      "status": "keep",
+      "recommendation": "Keep as the repository-aware grilling entrypoint.",
+      "dependencies": ["skills/productivity/grilling", "skills/engineering/domain-modeling"]
+    },
+    {
+      "path": "skills/engineering/implement",
+      "status": "keep",
+      "recommendation": "Adapt to Git BBQ execution conventions and retain as the build flow.",
+      "dependencies": ["skills/engineering/tdd", "skills/engineering/code-review"]
+    },
+    {
+      "path": "skills/engineering/improve-codebase-architecture",
+      "status": "keep",
+      "recommendation": "Useful architecture survey; optional because of the heavier HTML workflow.",
+      "dependencies": ["skills/engineering/codebase-design", "skills/productivity/grilling"]
+    },
+    {
+      "path": "skills/engineering/prototype",
+      "status": "keep",
+      "recommendation": "Keep for concrete logic and UI design questions.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/engineering/research",
+      "status": "keep",
+      "recommendation": "Keep, adapting background-agent terminology where required.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/engineering/resolving-merge-conflicts",
+      "status": "keep",
+      "recommendation": "Core guarded merge and rebase workflow.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/engineering/setup-matt-pocock-skills",
+      "status": "conditional",
+      "recommendation": "Keep only if tracker-dependent skills are included.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/engineering/tdd",
+      "status": "keep",
+      "recommendation": "Core test-first engineering discipline.",
+      "dependencies": ["skills/engineering/codebase-design"]
+    },
+    {
+      "path": "skills/engineering/to-spec",
+      "status": "conditional",
+      "recommendation": "Keep with issue-tracker integration.",
+      "dependencies": ["skills/engineering/setup-matt-pocock-skills"]
+    },
+    {
+      "path": "skills/engineering/to-tickets",
+      "status": "conditional",
+      "recommendation": "Keep with issue-tracker integration.",
+      "dependencies": ["skills/engineering/setup-matt-pocock-skills"]
+    },
+    {
+      "path": "skills/engineering/triage",
+      "status": "conditional",
+      "recommendation": "Keep with tracker and label integration.",
+      "dependencies": ["skills/engineering/setup-matt-pocock-skills"]
+    },
+    {
+      "path": "skills/engineering/wayfinder",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer from the initial API because it is process-heavy.",
+      "dependencies": ["skills/engineering/setup-matt-pocock-skills"]
+    },
+    {
+      "path": "skills/engineering/wizard",
+      "status": "hold",
+      "recommendation": "Retain in source; defer human-only provisioning workflows from the initial API.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/in-progress/claude-handoff",
+      "status": "omit",
+      "recommendation": "Claude-specific; replace later with a Codex-compatible handoff if needed.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/in-progress/implement-spec",
+      "status": "omit",
+      "recommendation": "Merge the useful behavior into implement rather than exposing a duplicate flow.",
+      "dependencies": ["skills/engineering/implement"]
+    },
+    {
+      "path": "skills/in-progress/loop-me",
+      "status": "omit",
+      "recommendation": "Personal workflow specification is outside the Git BBQ API.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/in-progress/pr",
+      "status": "hold",
+      "recommendation": "Potential future Git workflow extension, but still explicitly in progress.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/in-progress/retro",
+      "status": "hold",
+      "recommendation": "Useful environment feedback, but not part of the initial core API.",
+      "dependencies": ["skills/productivity/writing-for-agents"]
+    },
+    {
+      "path": "skills/in-progress/setup-ts-deep-modules",
+      "status": "omit",
+      "recommendation": "TypeScript-specific extension; retain outside the initial general API.",
+      "dependencies": ["skills/engineering/codebase-design"]
+    },
+    {
+      "path": "skills/in-progress/writing-beats",
+      "status": "omit",
+      "recommendation": "Writing workflow, unrelated to Git BBQ repository operations.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/in-progress/writing-fragments",
+      "status": "omit",
+      "recommendation": "Writing workflow, unrelated to Git BBQ repository operations.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/in-progress/writing-shape",
+      "status": "omit",
+      "recommendation": "Writing workflow, unrelated to Git BBQ repository operations.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/misc/git-guardrails-claude-code",
+      "status": "omit",
+      "recommendation": "Claude-specific and overlaps with Git BBQ's native Git safety model.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/misc/migrate-to-shoehorn",
+      "status": "omit",
+      "recommendation": "Specialized TypeScript package migration.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/misc/scaffold-exercises",
+      "status": "omit",
+      "recommendation": "Course-specific exercise scaffolding.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/misc/setup-pre-commit",
+      "status": "omit",
+      "recommendation": "Generic project bootstrap rather than a Git BBQ capability.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/productivity/grill-me",
+      "status": "alias",
+      "alias_of": "skills/productivity/grilling",
+      "recommendation": "Preserve only as a compatibility alias, not an independent capability.",
+      "dependencies": ["skills/productivity/grilling"]
+    },
+    {
+      "path": "skills/productivity/grilling",
+      "status": "keep",
+      "recommendation": "Core decision-tree interview primitive.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/productivity/handoff",
+      "status": "keep",
+      "recommendation": "Keep, adapting host-specific handoff behavior.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/productivity/teach",
+      "status": "omit",
+      "recommendation": "Stateful education workspace, outside the Git BBQ API.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/productivity/to-questionnaire",
+      "status": "omit",
+      "recommendation": "General asynchronous human-context workflow, not core repository operations.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/productivity/wait-what",
+      "status": "keep",
+      "recommendation": "Keep as a compact recovery skill for misunderstood requests.",
+      "dependencies": []
+    },
+    {
+      "path": "skills/productivity/writing-for-agents",
+      "status": "keep",
+      "recommendation": "Core guidance for maintaining agent-facing skills and instructions.",
+      "dependencies": []
+    }
+  ]
+}
