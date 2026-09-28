@@ -22,3 +22,4 @@ This file records changes made in the Git BBQ-maintained derivative. The source 
 | Commit or release | Change | Reason |
 | --- | --- | --- |
 | `v0.1.0` | Created the source-only derivative, added curation records and reproducible language audit, and normalized US-English prose under `skills/`. | Establish a separately maintained, reviewable source for the future Git BBQ submodule. |
+| `v0.2.0` | Made `git-bbq-curation.json` authoritative for the 38 retained source paths, finalized the 16-entry Git BBQ selection, recorded canonical packaging names and deferred capabilities, and synchronized source package metadata. | Give Git BBQ a reviewed, reproducible source pin while preserving upstream paths and history. |

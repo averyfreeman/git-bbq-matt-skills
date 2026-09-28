@@ -16,4 +16,4 @@ The `skills/` layout and upstream history are preserved so source paths stay sta
 3. Keep direct skill edits focused and record their rationale in `ADAPTATIONS.md`.
 4. Change the curation manifest only through an explicit Git BBQ review.
 
-This repository uses annotated SemVer tags for source snapshots. The initial derivative snapshot is `v0.1.0`.
+This repository uses annotated SemVer tags for source snapshots. The reviewed derivative snapshot is `v0.2.0`.

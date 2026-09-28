@@ -3,6 +3,7 @@
 **Source commit:** `c55ee46073ed923f86ce59a5eb3b6d895095d1b7`
 **Scope:** all 38 `SKILL.md` files, supporting files under `skills/`, and skill-related ADRs
 **Selection authority:** [`git-bbq-curation.json`](./git-bbq-curation.json)
+**Git BBQ release:** `v0.2.0` source snapshot, packaged by Git BBQ `v0.3.0`
 
 ## Language audit
 
@@ -63,4 +64,4 @@ Use `npm run audit:us-english:report` to regenerate the tracked report, or pass 
 | `productivity/wait-what` | Re-explains misunderstood requests. | Keep. |
 | `productivity/writing-for-agents` | Guides agent-facing skill and instruction writing. | Keep. |
 
-The manifest intentionally retains every source path. These are recommendations, not the final `v0.3.0` inclusion decision.
+The manifest retains every source path and now records the final `v0.3.0` packaging decision. Git BBQ applies public-name changes only while building the derivative plugin.

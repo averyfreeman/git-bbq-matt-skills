@@ -1,173 +1,227 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": {
     "repository": "https://github.com/mattpocock/skills.git",
     "commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7"
   },
+  "derivative": {
+    "repository": "https://github.com/averyfreeman/git-bbq-matt-skills.git",
+    "release": "v0.2.0"
+  },
   "policy": "retain-all-source-until-manual-selection",
-  "statuses": ["keep", "conditional", "hold", "alias", "omit"],
+  "statuses": ["keep", "hold", "alias", "omit"],
   "skills": [
     {
       "path": "skills/engineering/ask-matt",
       "status": "keep",
+      "publicName": "find-grill",
       "recommendation": "Regenerate the router against the final Git BBQ subset.",
-      "dependencies": ["skills/engineering/grill-with-docs", "skills/productivity/grilling"]
+      "adaptationRationale": "Git BBQ packages this as the final-subset router and replaces upstream flow names during packaging.",
+      "dependencies": [
+        "skills/engineering/grill-with-docs",
+        "skills/engineering/prototype",
+        "skills/engineering/diagnosing-bugs",
+        "skills/engineering/research",
+        "skills/engineering/resolving-merge-conflicts",
+        "skills/engineering/tdd",
+        "skills/engineering/code-review",
+        "skills/engineering/domain-modeling",
+        "skills/productivity/grilling",
+        "skills/productivity/wait-what",
+        "skills/productivity/writing-for-agents"
+      ]
     },
     {
       "path": "skills/engineering/code-review",
       "status": "keep",
+      "publicName": "review-code",
       "recommendation": "Core standards and specification review capability.",
+      "adaptationRationale": "Git BBQ renames the entrypoint and preserves the side-by-side report contract when parallel orchestration is unavailable.",
       "dependencies": []
     },
     {
       "path": "skills/engineering/codebase-design",
       "status": "keep",
+      "publicName": "design-project",
       "recommendation": "Core deep-module and seam vocabulary.",
+      "adaptationRationale": "Git BBQ exposes the vocabulary under a project-design name and rewrites references to the packaged public name.",
       "dependencies": []
     },
     {
       "path": "skills/engineering/diagnosing-bugs",
       "status": "keep",
+      "publicName": "debug",
       "recommendation": "Core disciplined debugging loop.",
+      "adaptationRationale": "Git BBQ exposes the debugging loop as a compact public entrypoint and removes deferred workflow references.",
       "dependencies": []
     },
     {
       "path": "skills/engineering/domain-modeling",
       "status": "keep",
+      "publicName": "strengthen-vocabulary",
       "recommendation": "Core glossary, scenario, and ADR discipline.",
+      "adaptationRationale": "Git BBQ packages the domain-language discipline under a name that describes its repository outcome.",
       "dependencies": []
     },
     {
       "path": "skills/engineering/grill-with-docs",
       "status": "keep",
+      "publicName": "grill-for-docs",
       "recommendation": "Keep as the repository-aware grilling entrypoint.",
+      "adaptationRationale": "Git BBQ keeps the documentation-producing composite and retargets it to grill plus strengthen-vocabulary.",
       "dependencies": ["skills/productivity/grilling", "skills/engineering/domain-modeling"]
     },
     {
       "path": "skills/engineering/implement",
       "status": "keep",
+      "publicName": "fire-away",
       "recommendation": "Adapt to Git BBQ execution conventions and retain as the build flow.",
+      "adaptationRationale": "Git BBQ renames the implementation flow and keeps its test-first, review, and report fallbacks explicit.",
       "dependencies": ["skills/engineering/tdd", "skills/engineering/code-review"]
     },
     {
       "path": "skills/engineering/improve-codebase-architecture",
-      "status": "keep",
-      "recommendation": "Useful architecture survey; optional because of the heavier HTML workflow.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer the architecture survey from the initial API because of its heavier workflow.",
+      "futureNote": "Reconsider when Git BBQ has a stable artifact and annotation adapter for the survey workflow.",
       "dependencies": ["skills/engineering/codebase-design", "skills/productivity/grilling"]
     },
     {
       "path": "skills/engineering/prototype",
       "status": "keep",
+      "publicName": "prototype",
       "recommendation": "Keep for concrete logic and UI design questions.",
+      "adaptationRationale": "The source entrypoint is already a clear Git BBQ public name; packaging adapts only host-specific references.",
       "dependencies": []
     },
     {
       "path": "skills/engineering/research",
       "status": "keep",
+      "publicName": "research",
       "recommendation": "Keep, adapting background-agent terminology where required.",
+      "adaptationRationale": "Git BBQ preserves the cited Markdown artifact contract and runs the work inline when background orchestration is unavailable.",
       "dependencies": []
     },
     {
       "path": "skills/engineering/resolving-merge-conflicts",
       "status": "keep",
+      "publicName": "fix-merge-or-rebase",
       "recommendation": "Core guarded merge and rebase workflow.",
+      "adaptationRationale": "Git BBQ gives the conflict workflow an action-oriented public name while preserving its safety contract.",
       "dependencies": []
     },
     {
       "path": "skills/engineering/setup-matt-pocock-skills",
-      "status": "conditional",
-      "recommendation": "Keep only if tracker-dependent skills are included.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer tracker-dependent setup from the initial API.",
+      "futureNote": "Reconsider with the tracker workflows once Git BBQ defines their provider and configuration adapter.",
       "dependencies": []
     },
     {
       "path": "skills/engineering/tdd",
       "status": "keep",
+      "publicName": "test-first",
       "recommendation": "Core test-first engineering discipline.",
+      "adaptationRationale": "Git BBQ packages the red-green discipline under a direct action name and rewrites its design references.",
       "dependencies": ["skills/engineering/codebase-design"]
     },
     {
       "path": "skills/engineering/to-spec",
-      "status": "conditional",
-      "recommendation": "Keep with issue-tracker integration.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer tracker-dependent specification publishing from the initial API.",
+      "futureNote": "Reconsider with the tracker workflows and a Git BBQ-owned specification destination.",
       "dependencies": ["skills/engineering/setup-matt-pocock-skills"]
     },
     {
       "path": "skills/engineering/to-tickets",
-      "status": "conditional",
-      "recommendation": "Keep with issue-tracker integration.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer tracker-dependent ticket creation from the initial API.",
+      "futureNote": "Reconsider with the tracker workflows and a Git BBQ-owned ticket adapter.",
       "dependencies": ["skills/engineering/setup-matt-pocock-skills"]
     },
     {
       "path": "skills/engineering/triage",
-      "status": "conditional",
-      "recommendation": "Keep with tracker and label integration.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer tracker and label integration from the initial API.",
+      "futureNote": "Reconsider with a Git BBQ-owned issue tracker and label adapter.",
       "dependencies": ["skills/engineering/setup-matt-pocock-skills"]
     },
     {
       "path": "skills/engineering/wayfinder",
       "status": "hold",
-      "recommendation": "Retain in source, but defer from the initial API because it is process-heavy.",
+      "recommendation": "Retain in source, but defer the decision-ticket workflow from the initial API.",
+      "futureNote": "Reconsider after tracker workflows and multi-session decision artifacts have a Git BBQ contract.",
       "dependencies": ["skills/engineering/setup-matt-pocock-skills"]
     },
     {
       "path": "skills/engineering/wizard",
       "status": "hold",
-      "recommendation": "Retain in source; defer human-only provisioning workflows from the initial API.",
+      "recommendation": "Retain in source, but defer human-only provisioning workflows from the initial API.",
+      "futureNote": "Reconsider when Git BBQ can describe and verify a human wizard artifact without owning third-party dashboards.",
       "dependencies": []
     },
     {
       "path": "skills/in-progress/claude-handoff",
       "status": "omit",
       "recommendation": "Claude-specific; replace later with a Codex-compatible handoff if needed.",
+      "futureNote": "A Codex handoff remains deferred until Git BBQ exposes a real hosted-subagent adapter.",
       "dependencies": []
     },
     {
       "path": "skills/in-progress/implement-spec",
       "status": "omit",
-      "recommendation": "Merge the useful behavior into implement rather than exposing a duplicate flow.",
+      "recommendation": "Merge the useful behavior into fire-away rather than exposing a duplicate flow.",
       "dependencies": ["skills/engineering/implement"]
     },
     {
       "path": "skills/in-progress/loop-me",
-      "status": "omit",
-      "recommendation": "Personal workflow specification is outside the Git BBQ API.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer the recurring workflow-design system from the initial API.",
+      "futureNote": "Reconsider when Git BBQ has a durable workflow-definition and scheduling contract.",
       "dependencies": []
     },
     {
       "path": "skills/in-progress/pr",
       "status": "hold",
-      "recommendation": "Potential future Git workflow extension, but still explicitly in progress.",
+      "recommendation": "Retain in source, but defer the pull-request writer from the initial API.",
+      "futureNote": "Reconsider when Git BBQ owns a provider-neutral review and pull-request artifact contract.",
       "dependencies": []
     },
     {
       "path": "skills/in-progress/retro",
-      "status": "hold",
-      "recommendation": "Useful environment feedback, but not part of the initial core API.",
+      "status": "keep",
+      "publicName": "create-retrospective",
+      "recommendation": "Keep as the environment-feedback retrospective entrypoint.",
+      "adaptationRationale": "Git BBQ packages the retrospective under an explicit action name and retargets its writing reference.",
       "dependencies": ["skills/productivity/writing-for-agents"]
     },
     {
       "path": "skills/in-progress/setup-ts-deep-modules",
-      "status": "omit",
-      "recommendation": "TypeScript-specific extension; retain outside the initial general API.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer polyglot deep-module enforcement from the initial API.",
+      "futureNote": "Reconsider when the design vocabulary has a provider-neutral boundary enforcement adapter.",
       "dependencies": ["skills/engineering/codebase-design"]
     },
     {
       "path": "skills/in-progress/writing-beats",
-      "status": "omit",
-      "recommendation": "Writing workflow, unrelated to Git BBQ repository operations.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer the writing bundle from the initial API.",
+      "futureNote": "Reconsider with the complete writing workflow as a deliberately scoped extension.",
       "dependencies": []
     },
     {
       "path": "skills/in-progress/writing-fragments",
-      "status": "omit",
-      "recommendation": "Writing workflow, unrelated to Git BBQ repository operations.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer the writing bundle from the initial API.",
+      "futureNote": "Reconsider with the complete writing workflow as a deliberately scoped extension.",
       "dependencies": []
     },
     {
       "path": "skills/in-progress/writing-shape",
-      "status": "omit",
-      "recommendation": "Writing workflow, unrelated to Git BBQ repository operations.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer the writing bundle from the initial API.",
+      "futureNote": "Reconsider with the complete writing workflow as a deliberately scoped extension.",
       "dependencies": []
     },
     {
@@ -197,26 +251,32 @@
     {
       "path": "skills/productivity/grill-me",
       "status": "alias",
-      "alias_of": "skills/productivity/grilling",
-      "recommendation": "Preserve only as a compatibility alias, not an independent capability.",
+      "publicName": "grill-no-docs",
+      "aliasOf": "grill",
+      "recommendation": "Preserve the stateless interview as a renamed alias of grill, not an independent capability.",
+      "adaptationRationale": "Git BBQ keeps the source wrapper but gives it a clear no-docs public name and retargets it to grill.",
       "dependencies": ["skills/productivity/grilling"]
     },
     {
       "path": "skills/productivity/grilling",
       "status": "keep",
+      "publicName": "grill",
       "recommendation": "Core decision-tree interview primitive.",
+      "adaptationRationale": "Git BBQ exposes the reusable interview primitive under the compact public name used by composites.",
       "dependencies": []
     },
     {
       "path": "skills/productivity/handoff",
-      "status": "keep",
-      "recommendation": "Keep, adapting host-specific handoff behavior.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer host-specific handoff behavior from the initial API.",
+      "futureNote": "Do not package until Git BBQ exposes a real adapter for hosted actions such as spawn_agent, send_message, and followup_task, as described in the official OpenAI multi-agent guide.",
       "dependencies": []
     },
     {
       "path": "skills/productivity/teach",
-      "status": "omit",
-      "recommendation": "Stateful education workspace, outside the Git BBQ API.",
+      "status": "hold",
+      "recommendation": "Retain in source, but defer the stateful teaching extension from the initial API.",
+      "futureNote": "Reconsider when Git BBQ has a durable multi-session teaching workspace contract.",
       "dependencies": []
     },
     {
@@ -228,13 +288,17 @@
     {
       "path": "skills/productivity/wait-what",
       "status": "keep",
+      "publicName": "clarify",
       "recommendation": "Keep as a compact recovery skill for misunderstood requests.",
+      "adaptationRationale": "Git BBQ gives the recovery action a direct public name and rewrites its composite references.",
       "dependencies": []
     },
     {
       "path": "skills/productivity/writing-for-agents",
       "status": "keep",
+      "publicName": "write-agent-docs",
       "recommendation": "Core guidance for maintaining agent-facing skills and instructions.",
+      "adaptationRationale": "Git BBQ exposes the writing reference under an explicit agent-documentation action name.",
       "dependencies": []
     }
   ]
